@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>S&Y Construcciones | Obra Civil y Remodelaciones</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background-color: #f9f9f9;
+      color: #222;
+    }
+    header {
+      background-color: #1a1a1a;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+    nav {
+      background-color: #333;
+      display: flex;
+      justify-content: center;
+    }
+    nav a {
+      color: white;
+      padding: 14px 20px;
+      text-decoration: none;
+    }
+    nav a:hover {
+      background-color: #555;
+    }
+    section {
+      padding: 40px;
+      max-width: 1000px;
+      margin: auto;
+    }
+    .services {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 20px;
+    }
+    .card {
+      background-color: white;
+      padding: 20px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+      border-radius: 8px;
+    }
+    footer {
+      background-color: #1a1a1a;
+      color: white;
+      text-align: center;
+      padding: 20px;
+    }
+    .contact-btn {
+      display: inline-block;
+      padding: 10px 20px;
+      background-color: #f39c12;
+      color: white;
+      border-radius: 5px;
+      text-decoration: none;
+      margin-top: 20px;
+    }
+    .contact-btn:hover {
+      background-color: #e67e22;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>S&Y Construcciones</h1>
+  <p>Profesionales en obra civil, electricidad, gas natural y remodelaciones</p>
+</header>
+
+<nav>
+  <a href="#servicios">Servicios</a>
+  <a href="#nosotros">Nosotros</a>
+  <a href="#contacto">Contacto</a>
+</nav>
+
+<section id="servicios">
+  <h2>Servicios</h2>
+  <div class="services">
+    <div class="card">
+      <h3>Obra Civil</h3>
+      <p>Construcción de viviendas, estructuras, cimentaciones, y más.</p>
+    </div>
+    <div class="card">
+      <h3>Electricidad</h3>
+      <p>Instalaciones eléctricas residenciales, comerciales e industriales.</p>
+    </div>
+    <div class="card">
+      <h3>Gas Natural</h3>
+      <p>Montaje de redes de gas certificadas por técnicos calificados.</p>
+    </div>
+    <div class="card">
+      <h3>Remodelaciones</h3>
+      <p>Reformas de cocinas, baños, fachadas, interiores y más.</p>
+    </div>
+    <div class="card">
+      <h3>Licencias y Consciencias</h3>
+      <p>Asesoría técnica y legal para tramitar licencias y permisos de construcción.</p>
+    </div>
+  </div>
+</section>
+
+<section id="nosotros">
+  <h2>¿Quiénes Somos?</h2>
+  <p>En <strong>S&Y Construcciones</strong> nos destacamos por nuestra experiencia, compromiso y calidad. Ofrecemos soluciones integrales en el sector de la construcción, con personal altamente calificado y cumplimiento de normativas vigentes.</p>
+</section>
+
+<section id="contacto">
+  <h2>Contacto</h2>
+  <p>¿Tienes un proyecto en mente? Escríbenos o llámanos:</p>
+  <ul>
+    <li><strong>Teléfono / WhatsApp:</strong> <a href="https://wa.me/573222483050" target="_blank">+57 322 248 3050</a></li>
+    <li><strong>Email:</strong> contacto@syconstrucciones.com</li>
+    <li><strong>Ubicación:</strong> Colombia</li>
+  </ul>
+  <a href="https://wa.me/573222483050" class="contact-btn" target="_blank">Contactar por WhatsApp</a>
+</section>
+
+<footer>
+  <p>&copy; 2025 S&Y Construcciones. Todos los derechos reservados.</p>
+</footer>
+
+</body>
+</html>
